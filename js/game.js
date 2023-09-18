@@ -15,7 +15,7 @@ $map.addEventListener('click', function (e){
 	let distanceHint = getDistanceHint(distance);
 	$distance.innerHTML = `<h1>${distanceHint}</h1>`;
 	if(distance < 20){
-		alert(`Has encontrado el tesoro en ${click} clicks`);
+		alert(`You have found the treasure in ${click} clicks`);
 		location.reload();
 	}
 });

@@ -14,21 +14,21 @@ let getDistance = (e, target) => {
 
 let getDistanceHint = distance => {
 	if(distance < 30){
-		return "Estas muy cerca";
+		return "You are very close";
 	}
 	else if(distance < 40){
-		return "estas cerca";
+		return "You are close";
 	}
 	else if(distance < 60){
-		return "cerca";
+		return "Near";
 	}
 	else if(distance < 100){
-		return "frio";
+		return "Cold";
 	}
 	else if(distance < 360){
-		return "estas frio";
+		return "you are cold ";
 	} 
 	else{
-		return "estas muy frio";
+		return "You are very cold";
 	}
 }
